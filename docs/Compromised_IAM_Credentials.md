@@ -204,7 +204,8 @@ Use AWS Git projects to scan for evidence of unauthorized use.
 ### Identify any potentially unauthorized IAM user credentials
 1. Open the IAM console.
 1. Choose Users in the navigation pane.
-1. Choose each IAM user from the list, then check under Permissions policies for a policy named `AWSExposedCredentialPolicy_DO_NOT_REMOVE`. 1. If the user has this attached policy, you must rotate the access keys for the user.
+1. Choose each IAM user from the list, then check under Permissions policies for a policy named `AWSExposedCredentialPolicy_DO_NOT_REMOVE`.
+    * **NOTE**:  If the user has this attached policy, you must rotate the access keys for the user.
 
 ## Escalation Procedures
 Understand, document, and socialize the following:
